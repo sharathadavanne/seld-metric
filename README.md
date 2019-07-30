@@ -32,5 +32,10 @@ If you are using this code or the datasets in any format, then please consider c
 Thats it! The results obtained should be identical to that in the paper.
 
 
+## Additional details
+- The `test_metrics.py` script is only used for testing and providing an example usage of the metrics defined in `SELD_evaluation_metrics.py` script. Ideally, you can use `SELD_evaluation_metrics.py` as a standalone script.
+- The `SELD_evaluation_metrics.py` script has been tested on both python 2.x and 3.x
+- The `test_metrics.py` in the current configuration only works for python 3.x, inorder to run it in python 2.x you will have to figure out a right way to import libraries as described in the [code here](https://github.com/sharathadavanne/seld-metric/blob/c0dc9dd23147cbb08ca6e2e6d2ee78ea7e3f5855/test_metrics.py#L22).
+
 ## Acknowledgement
 This work has received funding from the European Research Council under the ERC Grant Agreement 637422 EVERYSOUND
