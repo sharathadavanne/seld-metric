@@ -4,7 +4,7 @@ This repository implements the sound event localization and detection (SELD) met
 
 > Annamaria Mesaros, Sharath Adavanne, Archontis Politis, Toni Heittola, and Tuomas Virtanen, "Joint Measurement of Localization and Detection of Sound Events" in IEEE Workshop on Applications of Signal Processing to Audio and Acoustics (WASPAA 2019)
 
-For the evaluation of the metrics, we use the recently proposed [SELDnet method](https://arxiv.org/abs/1807.00129), and [TAU Spatial Sound Events 2019 - Microphone Array dataset](https://arxiv.org/abs/1905.08546).
+For the evaluation of the metrics, we use the recently proposed [SELDnet method](https://github.com/sharathadavanne/seld-net), and [TAU Spatial Sound Events 2019 - Microphone Array dataset](https://arxiv.org/abs/1905.08546).
 
 If you are using this code or the datasets in any format, then please consider citing us.
 
