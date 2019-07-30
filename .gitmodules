@@ -1,0 +1,3 @@
+[submodule "seld_dcase2019"]
+	path = seld_dcase2019
+	url = git@github.com:sharathadavanne/seld-dcase2019.git
