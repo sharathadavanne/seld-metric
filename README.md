@@ -24,9 +24,10 @@ If you are using this code or the datasets in any format, then please consider c
    This package consists of the SELDnet results at 5, 25 and 75 epochs. Update the location of the corresponding results folder in the [code](https://github.com/sharathadavanne/seld-metric/blob/7b0b49dd23f09019d80e503605d0d350df342272/test_metrics.py#L143).
 4. Choose the segment length for evaluation in the [code](https://github.com/sharathadavanne/seld-metric/blob/7b0b49dd23f09019d80e503605d0d350df342272/test_metrics.py#L153).
 5. Run the code
-  '''python
-  python test_metrics.py
-  '''
+
+     ```python
+        python test_metrics.py
+     ```
   
 Thats it! The results obtained should be identical to that in the paper.
 
